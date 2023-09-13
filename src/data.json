@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Pepa",
+        "age": "8 meses",
+        "gender": "Hembra",
+        "spec1": "Es muy juguetona",
+        "spec2": "Se lleva bien con otros animales",
+        "spec3": "Disfruta mucho salir y correr",
+        "spec4": "No le gusta estár sola",
+        "img": "./assets/pets/pepa.jpg",
+        "sterilized": true    
+    },
+    {
+        "id": 2,
+        "name": "Gabo",
+        "age": "2 años",
+        "gender": "Macho",
+        "spec1": "Le gusta ver por la ventana",
+        "spec2": "Se lleva muy bien personas adultas",
+        "spec3": "Disfruta mucho las caricias",
+        "spec4": "No le gustan los ruidos fuertes",
+        "img": "./assets/pets/gabo.jpg",
+        "sterilized": true  
+    },
+    {
+        "id": 3,
+        "name": "Seymour",
+        "age": "7 años",
+        "gender": "Macho",
+        "spec1": "Le gusta ver por la ventana",
+        "spec2": "Se lleva muy bien personas adultas",
+        "spec3": "Disfruta mucho las caricias",
+        "spec4": "No le gustan los ruidos fuertes",
+        "img": "./assets/pets/seymour.jpg",
+        "sterilized": true  
+    },
+    {
+        "id": 4,
+        "name": "Mima",
+        "age": "5 meses",
+        "gender": "Macho",
+        "spec1": "Le gusta ver por la ventana",
+        "spec2": "Se lleva muy bien personas adultas",
+        "spec3": "Disfruta mucho las caricias",
+        "spec4": "No le gustan los ruidos fuertes",
+        "img": "./assets/pets/mima.jpg",
+        "sterilized": false    },
+    {
+        "id": 5,
+        "name": "Maxi",
+        "age": "9 meses",
+        "gender": "Macho",
+        "spec1": "Le gusta ver por la ventana",
+        "spec2": "Se lleva muy bien personas adultas",
+        "spec3": "Disfruta mucho las caricias",
+        "spec4": "No le gustan los ruidos fuertes",
+        "img": "./assets/pets/maxi.jpg",
+        "sterilized": false 
+       },
+    {
+        "id": 6,
+        "name": "peluzin",
+        "age": "2 años",
+        "gender": "Macho",
+        "spec1": "Le gusta ver por la ventana",
+        "spec2": "Se lleva muy bien personas adultas",
+        "spec3": "Disfruta mucho las caricias",
+        "spec4": "No le gustan los ruidos fuertes",
+        "img": "./assets/pets/peluzin.jpg",
+        "sterilized": true  
+    }
+]

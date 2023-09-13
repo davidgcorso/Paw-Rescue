@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  :root {
+    --paw-primaryFont: 'Quicksand', sans-serif;
+    --paw-titleFont: 'Caveat Brush', cursive;
+    --paw-blue: #5CC8FF;
+    --paw-white: #FFF9FB;
+    --paw-dark: #4B3B47;
+    --paw-yellow: #FFA630;
+    --paw-yellow-light: rgb(255, 150, 44);
+  }
+body {
+  background-color: var(--paw-white);
+  font-family: var(--paw-primaryFont);
+}
+
+

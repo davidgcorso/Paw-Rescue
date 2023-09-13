@@ -1,0 +1,32 @@
+.firstHomeSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin: 53px 0;
+}
+.firstHomeSection__img {
+    width:500px;
+    height: 333px;
+    border-radius: 16px;
+}
+
+.firstHomesection__title {
+    font-family: var(--paw-titleFont);
+    font-size: 64px;
+    font-weight: lighter;
+    position: absolute;
+    padding: 8px 0 0 320px;
+}
+.dogs {
+    color: var(--paw-dark);
+}
+.cats {
+    color: var(--paw-yellow);
+}
+.secondHomeSection {
+    width: 100%;
+    height: 315px;
+    background-color: var(--paw-dark);
+    opacity: 0.1;
+}
