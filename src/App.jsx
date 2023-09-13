@@ -5,6 +5,7 @@ import { Contact } from "./Routes/Contact"
 import { About } from "./Routes/About"
 import { Volunteer } from "./Routes/Volunteer"
 import { Donate } from "./Routes/Donate"
+import { Footer } from "./Components/Footer"
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
         <Route path='/donate' element={<Donate/>}></Route>
         <Route path='/*' element={<Navigate to='/'/>}></Route>
     </Routes>
+    <Footer/>
     </>
   )
 }
