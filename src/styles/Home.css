@@ -27,6 +27,16 @@
 .secondHomeSection {
     width: 100%;
     height: 315px;
-    background-color: var(--paw-dark);
-    opacity: 0.1;
+    background-color: #ede6e9;
+}
+.secondHomeSection__imgs {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.secondHomeSection__title {
+    color: var(--paw-dark);
+    padding: 6px 0 0 48px;
+    font-size: 24px;
+    font-weight:bold;
 }

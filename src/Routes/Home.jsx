@@ -1,6 +1,10 @@
+
+import { Pets } from '../Components/Pets'
 import '../styles/Home.css'
 
+
 export const Home = () => {
+   
   return (
     <>
     <section className="firstHomeSection">
@@ -15,15 +19,11 @@ export const Home = () => {
     </section>
     <section className="secondHomeSection">
         <h3 className='secondHomeSection__title'>Patitas recién llegando al refugio</h3>
-        {/* aca debo hacer un map */}
-        <a>
-            <figure>
-                <h3></h3>
-                <img src="" alt="" />
-            </figure>
-        </a>
-
-    </section>
+        <div className='secondHomeSection__imgs'>
+        <Pets/>
+        </div>
+        
+        </section>
     </>
   )
 }

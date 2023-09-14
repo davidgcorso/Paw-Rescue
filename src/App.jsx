@@ -6,10 +6,12 @@ import { About } from "./Routes/About"
 import { Volunteer } from "./Routes/Volunteer"
 import { Donate } from "./Routes/Donate"
 import { Footer } from "./Components/Footer"
+import { Petsprovider } from "./Context/DataContext"
+
 
 export const App = () => {
   return (
-    <>
+    <Petsprovider>
     <Navbar/>
     <Routes>
         <Route path='/' element={<Home/>}></Route>
@@ -20,6 +22,6 @@ export const App = () => {
         <Route path='/*' element={<Navigate to='/'/>}></Route>
     </Routes>
     <Footer/>
-    </>
+    </Petsprovider>
   )
 }

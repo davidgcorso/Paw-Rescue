@@ -30,7 +30,7 @@ export const Footer = () => {
       </ul>
     
         </nav>
-
+<p className="footer-copyRight">David González @ 2023. All rights reserved.</p>
     </footer>
     </>
   )

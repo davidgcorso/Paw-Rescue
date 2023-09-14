@@ -8,7 +8,7 @@
         "spec2": "Se lleva bien con otros animales",
         "spec3": "Disfruta mucho salir y correr",
         "spec4": "No le gusta estár sola",
-        "img": "./assets/pets/pepa.jpg",
+        "img": "pepa.jpg",
         "sterilized": true    
     },
     {
@@ -20,7 +20,7 @@
         "spec2": "Se lleva muy bien personas adultas",
         "spec3": "Disfruta mucho las caricias",
         "spec4": "No le gustan los ruidos fuertes",
-        "img": "./assets/pets/gabo.jpg",
+        "img": "gabo.jpg",
         "sterilized": true  
     },
     {
@@ -32,7 +32,7 @@
         "spec2": "Se lleva muy bien personas adultas",
         "spec3": "Disfruta mucho las caricias",
         "spec4": "No le gustan los ruidos fuertes",
-        "img": "./assets/pets/seymour.jpg",
+        "img": "seymour.jpg",
         "sterilized": true  
     },
     {
@@ -44,7 +44,7 @@
         "spec2": "Se lleva muy bien personas adultas",
         "spec3": "Disfruta mucho las caricias",
         "spec4": "No le gustan los ruidos fuertes",
-        "img": "./assets/pets/mima.jpg",
+        "img": "mima.jpg",
         "sterilized": false    },
     {
         "id": 5,
@@ -55,7 +55,7 @@
         "spec2": "Se lleva muy bien personas adultas",
         "spec3": "Disfruta mucho las caricias",
         "spec4": "No le gustan los ruidos fuertes",
-        "img": "./assets/pets/maxi.jpg",
+        "img": "maxi.jpg",
         "sterilized": false 
        },
     {
@@ -67,7 +67,7 @@
         "spec2": "Se lleva muy bien personas adultas",
         "spec3": "Disfruta mucho las caricias",
         "spec4": "No le gustan los ruidos fuertes",
-        "img": "./assets/pets/peluzin.jpg",
+        "img": "peluzin.jpg",
         "sterilized": true  
     }
 ]

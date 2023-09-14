@@ -1,0 +1,18 @@
+.pet__img {
+    width:150px;
+    height: 210px;
+    border-radius: 16px;
+    margin:32px 0;
+}
+.pet__text {
+    font-family: var(--paw-titleFont);
+    font-size: 32px;
+    font-weight: lighter;
+    position: absolute;
+    padding-top: 32px;
+    padding-left: 6px;
+    color: var(--paw-dark);
+}
+  .yellow {
+    color: var(--paw-yellow);
+  }
