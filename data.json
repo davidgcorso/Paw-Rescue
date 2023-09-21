@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "type": "dog",
         "name": "Pepa",
         "age": "8 meses",
         "gender": "Hembra",
@@ -13,6 +14,7 @@
     },
     {
         "id": 2,
+        "type": "cat",
         "name": "Gabo",
         "age": "2 años",
         "gender": "Macho",
@@ -25,6 +27,7 @@
     },
     {
         "id": 3,
+        "type": "dog",
         "name": "Seymour",
         "age": "7 años",
         "gender": "Macho",
@@ -37,6 +40,7 @@
     },
     {
         "id": 4,
+        "type": "cat",
         "name": "Mima",
         "age": "5 meses",
         "gender": "Macho",
@@ -48,6 +52,7 @@
         "sterilized": false    },
     {
         "id": 5,
+        "type": "dog",
         "name": "Maxi",
         "age": "9 meses",
         "gender": "Macho",
@@ -60,6 +65,7 @@
        },
     {
         "id": 6,
+        "type": "cat",
         "name": "peluzin",
         "age": "2 años",
         "gender": "Macho",

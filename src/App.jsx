@@ -7,6 +7,8 @@ import { Volunteer } from "./Routes/Volunteer"
 import { Donate } from "./Routes/Donate"
 import { Footer } from "./Components/Footer"
 import { Petsprovider } from "./Context/DataContext"
+import { Pet } from "./Routes/Pet"
+import { AdoptionForm } from "./Routes/AdoptionForm"
 
 
 export const App = () => {
@@ -19,6 +21,8 @@ export const App = () => {
         <Route path='/volunteer' element={<Volunteer/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/donate' element={<Donate/>}></Route>
+        <Route path='/:petName' element={<Pet/>}></Route>
+        <Route path='/:petName/requirements' element={<AdoptionForm/>}></Route>
         <Route path='/*' element={<Navigate to='/'/>}></Route>
     </Routes>
     <Footer/>

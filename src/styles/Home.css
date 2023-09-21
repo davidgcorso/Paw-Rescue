@@ -27,7 +27,7 @@
 .secondHomeSection {
     width: 100%;
     height: 315px;
-    background-color: #ede6e9;
+    background-color: var(--paw-bg);
 }
 .secondHomeSection__imgs {
     display:flex;
@@ -36,7 +36,7 @@
 }
 .secondHomeSection__title {
     color: var(--paw-dark);
-    padding: 6px 0 0 48px;
-    font-size: 24px;
+    padding: 24px 0 0px 48px;
+    font-size: 20px;
     font-weight:bold;
 }

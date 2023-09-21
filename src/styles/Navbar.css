@@ -36,12 +36,13 @@
     color: var(--paw-white);
     font-weight: bold;
     background-color: var(--paw-yellow);
-    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.1);
     transition: background-color 0.3s;
 }
 .navBar-button:hover {
     background-color: var(--paw-yellow-light);
     cursor:pointer;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.2);
 }
 
 

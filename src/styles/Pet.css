@@ -1,0 +1,76 @@
+.pet__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    /* gap: 64px; */
+}
+.petImg__container {
+   /* outline: 2px solid black; */
+   width: 45%;
+   text-align: center;
+   
+}
+.petImg {
+    width: 490px;
+    height: auto;
+    border-radius: 16px;
+    margin-top:4px;
+    
+
+}
+.pet__description {
+    /* outline: 2px solid black; */
+   width: 699px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    background-color: var(--paw-bg);
+    color: var(--paw-dark);
+}
+.pet__title {
+    font-family: var(--paw-titleFont);
+    font-size: 64px;
+}
+.pet__list {
+    font-size: 32px;
+}
+.pet__buttonContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.pet__button {
+    position: relative;
+    background-color: var(--paw-yellow); 
+    width:188px;
+    height:45px; 
+    border-radius: 8px; 
+    color: var(--paw-white);
+    font-weight: bold;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    margin-top: 48px;
+}
+.pet__button:hover {
+    background-color: var(--paw-yellow-light);
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+.pet__buttonPaw {
+    padding-left: 136px;
+    padding-bottom: 12px;
+    z-index: -1;
+}
+.paw {
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    background-image: url('../assets/paw-dark.svg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1); 
+    
+}

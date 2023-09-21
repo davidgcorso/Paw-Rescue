@@ -1,5 +1,5 @@
 
-import { Pets } from '../Components/Pets'
+import { PetsHome } from '../Components/PetsHome'
 import '../styles/Home.css'
 
 
@@ -20,7 +20,7 @@ export const Home = () => {
     <section className="secondHomeSection">
         <h3 className='secondHomeSection__title'>Patitas recién llegando al refugio</h3>
         <div className='secondHomeSection__imgs'>
-        <Pets/>
+        <PetsHome/>
         </div>
         
         </section>
