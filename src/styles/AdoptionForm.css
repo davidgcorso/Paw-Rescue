@@ -1,0 +1,122 @@
+.requirements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.requirements__title {
+    margin: 32px 0 16px 0;
+    font-family: var(--paw-titleFont);
+    font-size: 48px;
+    color: var(--paw-dark);
+}
+.requirements__form {
+    width: 750px;
+    background-color: var(--paw-bg);
+    margin: 32px 0;
+    border-radius: 16px; 
+}
+.requirements__label {
+    margin-left:16px;
+    display:block;
+    color: var(--paw-dark);
+    font-weight: bold;
+}
+.first {
+    margin-top:32px;
+}
+.requirements__Input {
+    width: 95%;
+    height: 36px;
+    margin:16px 16px;
+    /* outline: 2px solid #4B3B47; */
+    border-radius: 8px; 
+   
+}
+input, textarea {
+    text-indent: 12px;
+}
+.requirements__InputHalf {
+    
+    height:36px;
+    margin:16px 16px;
+   /*  outline: 2px solid #4B3B47; */
+}
+.form__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin:16px 16px;
+}
+.form__section {
+    width: 45%;
+}
+.requirements__radioOptions {
+    margin: 16px 0 16px 16px;
+}
+input[type="radio"] {
+    accent-color:var(--paw-yellow);
+    border: 2px solid #333;
+}
+.requirements__radioOptions-label {
+    margin-right: 16px;
+    color: var(--paw-dark);
+    font-weight: bold;
+}
+.requirements__textArea {
+    width:95%;
+    height:235px;
+    display:flex;
+    flex-direction: column;
+    margin: 16px 16px;
+}
+.textArea__label {
+    margin: 16px 0;
+    display:block;
+    color: var(--paw-dark);
+    font-weight: bold;
+}
+.textArea__box {
+   /*  outline: 2px solid #4B3B47; */
+    border-radius: 8px; 
+    resize: none;
+}
+.button__container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.requirements__button {
+    background-color: var(--paw-yellow); 
+    width:135px;
+    height:45px; 
+    border-radius: 8px; 
+    color: var(--paw-white);
+    font-weight: bold;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    margin: 32px 0;
+}
+.requirements__button:hover {
+    background-color: var(--paw-yellow-light);
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+.pet__buttonPaw {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.paw__white { 
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/paw-white.svg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);  
+    position: absolute; 
+    margin-left:96px;
+}
