@@ -7,13 +7,13 @@ import { faVenus } from '@fortawesome/free-solid-svg-icons'
 import { faMarsStrokeUp } from '@fortawesome/free-solid-svg-icons'
 
 export const Pet = () => {
-    const { data } = useContext(DataContext);
-    const { petName } = useParams();
+    const { data } = useContext(DataContext)
+    const { petName } = useParams()
     
-    const pet = data.find((item) => item.name === petName);
+    const pet = data.find((item) => item.name === petName)
 
     if (!pet) {
-      return <div>Animal no encontrado</div>;
+      return <div>Animal no encontrado</div>
     }
 
     return (

@@ -1,8 +1,18 @@
-import  { useState } from 'react'
 import '../styles/AdoptionForm.css'
+import { useContext } from 'react'
+import  {  useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { DataContext } from '../Context/DataContext'
+
 
 export const AdoptionForm =() =>{
+   const {data} = useContext(DataContext)
+   console.log(data)
+    const { petName } = useParams()
+    const petForm = data.find((item) => item.name === petName)
+   console.log(petForm)
   const [formData, setFormData] = useState({
+    mascota: petName,
     nombre: '',
     apellido: '',
     correo: '',
@@ -10,6 +20,7 @@ export const AdoptionForm =() =>{
     otrasMascotas: 'No',
     comentarios: '',
   }) 
+  
 
   const handleSubmit = (e) => {
     e.preventDefault() 
@@ -18,14 +29,20 @@ export const AdoptionForm =() =>{
   } 
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target 
-    const newValue = type === 'checkbox' ? checked : value 
-    setFormData({ ...formData, [name]: newValue }) 
+    const { name, value } = e.target
+
+    setFormData({
+      ...formData,
+      [name]: value,
+    })
   } 
 
   return (
     <div className='requirements'>
-      <h1 className='requirements__title'>Formulario de Requerimientos</h1>
+      <h1 className='requirements__title'>Formulario de Requerimientos para adoptar a {petForm.name}</h1>
+      <figure className='requiriments__imgContainer'>
+        <img src={`../../src/assets/pets/${petForm.img}`} alt={petForm.name} className='requirements__img'/>
+      </figure>
       <form onSubmit={handleSubmit} className='requirements__form'>
         {/* Nombre */}
         <label htmlFor="nombre" className='requirements__label first'>Nombre:</label>
