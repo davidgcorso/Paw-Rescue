@@ -7,10 +7,8 @@ import { DataContext } from '../Context/DataContext'
 
 export const AdoptionForm =() =>{
    const {data} = useContext(DataContext)
-   console.log(data)
     const { petName } = useParams()
     const petForm = data.find((item) => item.name === petName)
-   console.log(petForm)
   const [formData, setFormData] = useState({
     mascota: petName,
     nombre: '',

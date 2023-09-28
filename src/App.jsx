@@ -11,6 +11,7 @@ import { Pet } from "./Routes/Pet"
 import { AdoptionForm } from "./Routes/AdoptionForm"
 import { Confirmation } from "./Routes/Confirmation"
 import { ScrollToTop } from "./Components/ScrollToTop"
+import { ThankU } from "./Routes/ThankU"
 
 
 export const App = () => {
@@ -28,6 +29,7 @@ export const App = () => {
         <Route path='/volunteer' element={<Volunteer/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/donate' element={<Donate/>}></Route>
+        <Route path='/donate/thanks' element={<ThankU/>}></Route>
         <Route path='/*' element={<Navigate to='/'/>}></Route>
     </Routes>
     <Footer/>
