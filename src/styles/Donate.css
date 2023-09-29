@@ -1,0 +1,7 @@
+.donate__title {
+    text-align: center;
+    margin: 40px 0;
+    font-family: var(--paw-titleFont);
+    font-size: 40px;
+    color: var(--paw-dark);
+}

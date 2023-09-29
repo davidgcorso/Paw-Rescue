@@ -37,33 +37,36 @@ export const DonationForm = () => {
             }
             }
   return (
-    <div className='donation__section'>
-   <div className='button__container'>
+    <>
+      <div className='donation__paws'>
+   <div className='donation__buttonContainer'>
       
-      <div className="paw__white"></div>
+      <div className="pawDonate"></div>
     
-<button type="submit" className='requirements__button' onClick={()=>handleButtonClick(3)}>3</button>
+<button type="submit" className='donation__button' onClick={()=>handleButtonClick(3)}>3</button>
 </div>
-<div className='button__container'>
+<div className='donation__buttonContainer'>
       
-      <div className="paw__white"></div>
+      <div className="pawDonate"></div>
     
-<button type="submit" className='requirements__button' onClick={()=>handleButtonClick(5)}>5</button>
+<button type="submit" className='donation__button' onClick={()=>handleButtonClick(5)}>5</button>
 </div>
-<div className='button__container'>
+<div className='donation__buttonContainer'>
       
-      <div className="paw__white"></div>
+      <div className="pawDonate last"></div>
     
-<button type="submit" className='requirements__button' onClick={()=>handleButtonClick(10)}>10</button>
+<button type="submit" className='donation__button' onClick={()=>handleButtonClick(10)}>10</button>
+</div>
 </div>
 <div className='donation__otherSection'>
     <label className='requirements__label'>Otro valor<input type="number" className="donation__input" placeholder="Ingresa el valor de tu donación" min="1" value={amount} onChange={handleInputChange}></input></label>
-    </div>
+    
     <p>patitas: {amount} - CLP {totalAmount}</p>
     <div>
-      <button className='donation__button'onClick={handleBuy}>DONAR</button>
+      <button className='navBar-button'onClick={handleBuy}>HACER DONACION</button>
       {preferenceId && <Wallet initialization={{ preferenceId}} />}
     </div>
     </div>
+    </>
   )
 }
