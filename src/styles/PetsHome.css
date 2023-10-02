@@ -2,7 +2,7 @@
     width:150px;
     height: 210px;
     border-radius: 16px;
-    margin:32px 0;
+    margin:32px;
 }
 .pet__text {
     font-family: var(--paw-titleFont);
@@ -10,7 +10,7 @@
     font-weight: lighter;
     position: absolute;
     padding-top: 32px;
-    padding-left: 6px;
+    padding-left: 36px;
     color: var(--paw-dark);
 }
   .yellow {

@@ -18,6 +18,9 @@
     font-family: var(--paw-titleFont);
     font-size: 48px;
     color: var(--paw-dark);
+    text-align: center;
+    margin: 40px 0;
+    font-family: var(--paw-titleFont);
 }
 .requirements__form {
     width: 750px;
@@ -38,12 +41,12 @@
     width: 95%;
     height: 36px;
     margin:16px 16px;
-    /* outline: 2px solid #4B3B47; */
     border-radius: 8px; 
    
 }
 input, textarea {
     text-indent: 12px;
+    font-size: 16px;
 }
 .requirements__InputHalf {
     

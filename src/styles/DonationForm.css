@@ -1,6 +1,7 @@
 .donation__paws {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 64px;
 }
 
 .donation__button {
@@ -39,8 +40,18 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
-    margin: 80px 0 0 0;
+    gap: 32px;
+    margin-top: 64px;
     padding: 48px 0;
     background-color: var(--paw-bg);
+}
+.donation__label {
+    color: var(--paw-dark);
+    font-size: 16px;
+    font-weight:bold;
+}
+.donation__input {
+    margin-left: 8px;
+    height: 36px;
+    border-radius: 16px;
 }

@@ -13,15 +13,15 @@ export const Footer = () => {
     <>
     <footer>
         <nav className='footer'>
-        <ul className='footer-links'>
+        <ul className='footer__links'>
       <li><NavLink to='about'>Quienes Somos</NavLink></li>
       <li><NavLink to='volunteer'>Voluntariado</NavLink></li>
       <li><NavLink to='contact'>Contacto</NavLink></li>
     </ul>
         <Link to="/" >
-      <img src="/src/assets/pawlogo.PNG" alt="Logo" className="footer-logo"/>
+      <img src="/src/assets/pawlogo.PNG" alt="Logo" className="footer__logo"/>
       </Link>
-      <ul className='footer-social'>
+      <ul className='footer__social'>
         <li><a href=''><FontAwesomeIcon icon={faYoutube} /></a></li>
         <li><a href=''><FontAwesomeIcon icon={faFacebookF} /></a></li>
         <li><a href=''><FontAwesomeIcon icon={faXTwitter} /></a></li>
@@ -30,7 +30,7 @@ export const Footer = () => {
       </ul>
     
         </nav>
-<p className="footer-copyRight">David González @ 2023. All rights reserved.</p>
+<p className="footer__copyRight">David González @ 2023. All rights reserved.</p>
     </footer>
     </>
   )

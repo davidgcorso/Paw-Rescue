@@ -59,11 +59,11 @@ export const DonationForm = () => {
 </div>
 </div>
 <div className='donation__otherSection'>
-    <label className='requirements__label'>Otro valor<input type="number" className="donation__input" placeholder="Ingresa el valor de tu donación" min="1" value={amount} onChange={handleInputChange}></input></label>
+    <label className='donation__label'>Otro valor<input type="number" className="donation__input" placeholder="valor de tu donación" min="1" value={amount} onChange={handleInputChange}></input></label>
     
-    <p>patitas: {amount} - CLP {totalAmount}</p>
+    <p className='donation__label'>{amount} Patitas equivalen a: CLP {totalAmount}</p>
     <div>
-      <button className='navBar-button'onClick={handleBuy}>HACER DONACION</button>
+      <button className='navBar__button'onClick={handleBuy}>HACER DONACION</button>
       {preferenceId && <Wallet initialization={{ preferenceId}} />}
     </div>
     </div>

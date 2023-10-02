@@ -1,7 +1,24 @@
+.donate__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .donate__title {
     text-align: center;
     margin: 40px 0;
     font-family: var(--paw-titleFont);
     font-size: 40px;
     color: var(--paw-dark);
+}
+.donate__imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate__img {
+    width:80%;
+    height: 250px;
+    border-radius: 16px;
+    overflow: hidden;
+    object-fit: cover;
 }
