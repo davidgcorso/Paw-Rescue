@@ -76,12 +76,29 @@ display:inline-block;
     .navBar__paw {
         display:none;
     }
+    .navBar__links {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 5.5rem;
+        padding: 2rem;
+        margin-left:2rem;
+        background-color: var(--paw-blue);
+        display: none;
+    }
+    .navBar__links li {
+        padding:1rem;
+    }
+    .show {
+        display: block;
+    }
     .navBar__menu {
         display:inline-block; 
     }
-    .navBar__links {
-        display: none;
+    .navBar__menu:hover {
+        cursor: pointer;
     }
+    
 }
 
 

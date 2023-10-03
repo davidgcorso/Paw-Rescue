@@ -3,12 +3,14 @@ import { useContext } from 'react'
 import  {  useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { DataContext } from '../Context/DataContext'
+import { useNavigate } from 'react-router-dom'
 
 
 export const AdoptionForm =() =>{
    const {data} = useContext(DataContext)
     const { petName } = useParams()
     const petForm = data.find((item) => item.name === petName)
+    const navigate = useNavigate();
   const [formData, setFormData] = useState({
     mascota: petName,
     nombre: '',
@@ -20,10 +22,24 @@ export const AdoptionForm =() =>{
   }) 
   
 
-  const handleSubmit = (e) => {
-    e.preventDefault() 
+  const handleSubmit = async (e) => { 
     
-    console.log(formData) 
+    e.preventDefault();
+
+    try {
+      await fetch('https://formspree.io/f/mdorplwd', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      // redirección de pagina
+      navigate(`/${petName}/requirements/success`);
+    } catch (error) {
+      console.error('Error al enviar el formulario:', error);
+    } 
   } 
 
   const handleChange = (e) => {
@@ -41,8 +57,16 @@ export const AdoptionForm =() =>{
       <figure className='requiriments__imgContainer'>
         <img src={`../../src/assets/pets/${petForm.img}`} alt={petForm.name} className='requirements__img'/>
       </figure>
-      <form onSubmit={handleSubmit} className='requirements__form'>
-        {/* Nombre */}
+      <form onSubmit={handleSubmit} action="https://formspree.io/f/mdorplwd"
+  method="POST"className='requirements__form'>
+        {/* Mascota */}
+        <input
+    type="hidden"
+    id="mascota"
+    name="mascota"
+    value={petForm.name}
+  />
+  {/* Nombre */}
         <label htmlFor="nombre" className='requirements__label first'>Nombre:</label>
         <input
           type="text"
@@ -100,8 +124,8 @@ export const AdoptionForm =() =>{
         <div className='form__section'>
 
         {/* Tienes otras mascotas? */}
-        
-        <label className='requirements__label'>¿Tienes otras mascotas?</label>
+        <div className='mascots'>
+        <label className='requirements__label '>¿Tienes otras mascotas?</label>
         
           <input
             type="radio"
@@ -122,8 +146,10 @@ export const AdoptionForm =() =>{
             value="No"
             checked={formData.otrasMascotas === 'No'}
             onChange={handleChange}
+            className='requirements__radioOptions'
           />
           <label htmlFor="no" className='requirements__radioOptions-label'>No</label>
+        </div>
         </div>
         </div>
         
