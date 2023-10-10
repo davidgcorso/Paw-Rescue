@@ -21,7 +21,7 @@ Bienvenido a Paw Rescue, una plataforma en línea dedicada a facilitar la adopci
 
 ## Diseño en Figma
 
-El diseño de Paw Rescue fue elaborado en [Figma]((https://www.figma.com/file/cVF8lhi6JVD0nchD8029LH/Untitled?type=design&node-id=0%3A1&mode=design&t=iMsdrSQt489p1ROs-1)). Puedes explorar el diseño y obtener una visión más profunda de la interfaz visual [aquí]((https://www.figma.com/proto/cVF8lhi6JVD0nchD8029LH/Untitled?type=design&node-id=29-1228&t=4KWRD77OO4CEm5nW-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=16%3A820&show-proto-sidebar=1&mode=design)).
+El diseño de Paw Rescue fue elaborado en [Figma](https://www.figma.com/file/cVF8lhi6JVD0nchD8029LH/Untitled?type=design&node-id=0%3A1&mode=design&t=iMsdrSQt489p1ROs-1). Puedes explorar el diseño y obtener una visión más profunda de la interfaz visual [aquí](https://www.figma.com/proto/cVF8lhi6JVD0nchD8029LH/Untitled?type=design&node-id=29-1228&t=4KWRD77OO4CEm5nW-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=16%3A820&show-proto-sidebar=1&mode=design).
 
 ## Contribuciones y Contacto
 
