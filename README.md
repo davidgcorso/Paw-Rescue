@@ -32,7 +32,7 @@ Si estás interesado en contribuir al desarrollo de Paw Rescue, sigue estos paso
 3. Realiza tus cambios y haz commits descriptivos.
 4. Haz un push de tu rama y abre un Pull Request.
 
-Para preguntas, sugerencias o problemas, contáctanos a través de davidgcorso@gmail.com o abre un issue en el repositorio.
+Para preguntas, sugerencias o problemas, contactame a través de davidgcorso@gmail.com o abre un issue en el repositorio.
 
-Paw Rescue busca construir relaciones significativas entre mascotas y futuros dueños. Gracias por ser parte de nuestra comunidad comprometida con el bienestar animal.
+Paw Rescue busca construir relaciones significativas entre mascotas y futuros dueños.
 
